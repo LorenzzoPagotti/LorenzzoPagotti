@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="[https://www.linkedin.com/in/lorenzzo-pagotti/]">
+<a href="https://www.linkedin.com/in/lorenzzo-pagotti/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
 </a>
 
@@ -24,7 +24,7 @@ Atualmente, estou buscando ativamente por uma oportunidade de estágio ou júnio
 Este é o meu projeto de portfólio central, onde eu projeto, implemento e documento uma biblioteca de sistemas de gameplay modulares em C++.
 
 ### 🎮 **Biblioteca de Componentes de Gameplay (Unreal Engine)**
-**[➡️ Explore o Repositório e o Código-Fonte Clicando Aqui]([https://github.com/LorenzzoPagotti/UE-Gameplay-Systems-Library])**
+**[➡️ Explore o Repositório e o Código-Fonte Clicando Aqui](https://github.com/LorenzzoPagotti/UE-Gameplay-Systems-Library)**
 
 Este "toolkit" contém sistemas fundamentais e reutilizáveis, incluindo:
 
@@ -38,7 +38,7 @@ Este "toolkit" contém sistemas fundamentais e reutilizáveis, incluindo:
 ## 🏆 Minha Primeira Game Jam
 
 **[Cursed Masks]** - *Programador de Gameplay C++ e Blueprints*
-* **[➡️ Jogue o jogo aqui! (Link do Itch.io)]([https://santodev.itch.io/cursedmasks])**
+* **[➡️ Jogue o jogo aqui! (Link do Itch.io)](https://santodev.itch.io/cursedmasks)**
 * Entregamos um jogo de terror e puzzle 2.5D em 7 dias para a Scream Jam 2025.
 * Fui responsável por programar as mecânicas centrais de puzzle e a IA dos inimigos, colaborando diretamente com a equipe de arte e design.
 
