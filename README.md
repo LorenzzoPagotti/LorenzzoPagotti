@@ -37,7 +37,7 @@ Este "toolkit" contém sistemas fundamentais e reutilizáveis, incluindo:
 
 ## 🏆 Minha Primeira Game Jam
 
-**[Cursed Masks]** - *Programador de Gameplay C++ e Blueprints*
+**Cursed Masks** - *Programador de Gameplay C++ e Blueprints*
 * **[➡️ Jogue o jogo aqui! (Link do Itch.io)](https://santodev.itch.io/cursedmasks)**
 * Entregamos um jogo de terror e puzzle 2.5D em 7 dias para a Scream Jam 2025.
 * Fui responsável por programar as mecânicas centrais de puzzle e a IA dos inimigos, colaborando diretamente com a equipe de arte e design.
