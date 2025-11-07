@@ -37,16 +37,18 @@ Este "toolkit" contém sistemas fundamentais e reutilizáveis, incluindo:
 
 ## 🏆 Minha Primeira Game Jam
 
-**[Cursed Masks]** - *Programador de Gameplay C++*
+**[Cursed Masks]** - *Programador de Gameplay C++ e Blueprints*
 * **[➡️ Jogue o jogo aqui! (Link do Itch.io)]([https://santodev.itch.io/cursedmasks])**
-* Entregamos um jogo de terror e puzzle 2.5D completo em 7 dias para a Scream Jam 2025.
+* Entregamos um jogo de terror e puzzle 2.5D em 7 dias para a Scream Jam 2025.
 * Fui responsável por programar as mecânicas centrais de puzzle e a IA dos inimigos, colaborando diretamente com a equipe de arte e design.
 
 <br>
 
 ## 🛠️ Tecnologias & Habilidades
 
-* **Linguagens:** C++, C, Blueprints (Unreal Engine)
-* **Motor:** Unreal Engine
-* **Conceitos-Chave:** Programação Orientada a Objetos (OOP), Arquitetura de Sistemas de Gameplay, Design Data-Driven (Data Assets), Padrões de Design (Componentes, Delegates, Interfaces)
-* **Ferramentas:** Git, GitHub, Visual Studio, Unreal Engine Tools
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
