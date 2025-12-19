@@ -19,7 +19,7 @@ Atualmente, estou buscando ativamente por uma oportunidade de estágio ou júnio
 
 <br>
 
-## 🚀 Meu Destaque Principal (WIP)
+##  Meu Destaque Principal (WIP)
 
 Este é o meu projeto de portfólio central, onde eu projeto, implemento e documento uma biblioteca de sistemas de gameplay modulares em C++.
 
@@ -28,10 +28,10 @@ Este é o meu projeto de portfólio central, onde eu projeto, implemento e docum
 
 Este "toolkit" contém sistemas fundamentais e reutilizáveis, incluindo:
 
-* 🧠 **Sistema de IA:** Um `AIController` customizado em C++ com `AIPerception` (visão e audição), `Behavior Tree` e `BTTasks` C++ para comportamentos complexos de patrulha, investigação, perseguição e busca.
-* 💬 **Sistema de Interação:** Um componente modular que usa `Interfaces` C++ para comunicação desacoplada e `Delegates` para notificar a UI de forma otimizada.
-* ❤️ **Sistemas de Ator (Vida & Stamina):** Componentes de `Health` e `Stamina` orientados a eventos, com lógica de dano/cura via Interfaces para integração limpa com outros sistemas (como a IA!).
-* 🎒 **Sistema de Inventário (Data-Driven):** Uma fundação de inventário que usa `Structs` e `Data Assets` para definir itens no editor, permitindo fácil escalabilidade.
+*  **Sistema de IA:** Um `AIController` customizado em C++ com `AIPerception` (visão e audição), `Behavior Tree` e `BTTasks` C++ para comportamentos complexos de patrulha, investigação, perseguição e busca.
+*  **Sistema de Interação:** Um componente modular que usa `Interfaces` C++ para comunicação desacoplada e `Delegates` para notificar a UI de forma otimizada.
+*  **Sistemas de Ator (Vida & Stamina):** Componentes de `Health` e `Stamina` orientados a eventos, com lógica de dano/cura via Interfaces para integração limpa com outros sistemas (como a IA!).
+*  **Sistema de Inventário (Data-Driven):** Uma fundação de inventário que usa `Structs` e `Data Assets` para definir itens no editor, permitindo fácil escalabilidade.
 
 <br>
 
