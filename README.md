@@ -11,7 +11,7 @@
 <br>
 <br>
 
-Sou um estudante de Ciência da Computação de 19 anos, cursando o 2º período na Pontifícia Universidade Católica de Goiás (PUC-GO), com uma paixão: construir os sistemas de gameplay que dão vida aos jogos.
+Sou um estudante de Ciência da Computação de 19 anos, cursando o 3º período na Pontifícia Universidade Católica de Goiás (PUC-GO), com uma paixão: construir os sistemas de gameplay que dão vida aos jogos.
 
 Meu objetivo é me tornar um Programador de Gameplay de classe mundial, e eu acredito que a melhor forma de fazer isso é construindo. Passo meu tempo mergulhado em C++. Blueprints e Unreal Engine, criando sistemas robustos, modulares e performáticos do zero.
 
