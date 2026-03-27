@@ -1,6 +1,6 @@
 # Olá, meu nome é Lorenzzo Freitas Pagotti 👋
 
-### **Aspiring Gameplay Programmer | C++ & Unreal Engine**
+### **Game Developer | C++ & Unreal Engine**
 
 <br>
 
