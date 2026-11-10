@@ -44,7 +44,7 @@ A standalone **Unreal Engine C++ Plugin** providing a decoupled actor interactio
 
 ### 3. [UE-StaminaSprintPlugin](https://github.com/LorenzzoPagotti/UE-StaminaSprintPlugin)
 A self-contained **Unreal Engine C++ Plugin** implementing a modular sprint and stamina management component:
-* Timer and Delegate-driven stamina depletion, exhaustion handling, and regeneration logic (no `Tick` polling overhead).
+* Stamina depletion, exhaustion handling, and regeneration logic.
 * Plug-and-play `UActorComponent` architecture with full Blueprint API exposure for tuning movement speeds, stamina costs, and UI bindings in the editor.
 
 ---
