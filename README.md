@@ -1,54 +1,56 @@
-# Olá, meu nome é Lorenzzo Freitas Pagotti 👋
+# Lorenzzo Freitas Pagotti
+**Gameplay Programmer — C++ & Unreal Engine 5**
 
-### **Game Developer | C++ & Unreal Engine**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorenzzo-pagotti/)
+[![Steam](https://img.shields.io/badge/Steam-Backrooms:_Collision_Not_Found-1b2838?style=flat-square&logo=steam&logoColor=white)](https://store.steampowered.com/app/4476610/Backrooms_Collision_Not_Found/)
+[![Itch.io](https://img.shields.io/badge/Itch.io-The_Sleeping_Curse-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white)](https://santodev.itch.io/thesleepingcurse)
+[![Email](https://img.shields.io/badge/Email-lzpagotti%40gmail.com-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:lzpagotti@gmail.com)
 
-<br>
+Gameplay Programmer specialized in **C++ and Unreal Engine 5**, focused on replicated multiplayer architecture, event-driven gameplay systems, and performance optimization. Solo developer of a commercial co-op title published on Steam and contributor to cross-disciplinary game production teams. Computer Science undergraduate (4th semester at PUC Goiás) currently open to **Gameplay / Unreal Engine Programming Internships and Junior roles**.
 
-<a href="https://www.linkedin.com/in/lorenzzo-pagotti/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-</a>
+---
 
-<br>
-<br>
+## Shipped & Commercial Projects
 
-Sou um estudante de Ciência da Computação de 19 anos, cursando o 3º período na Pontifícia Universidade Católica de Goiás (PUC-GO), com uma paixão: construir os sistemas de gameplay que dão vida aos jogos.
+### [Backrooms: Collision Not Found](https://store.steampowered.com/app/4476610/Backrooms_Collision_Not_Found/) — *Solo Developer & Gameplay Programmer*
+**Commercial Co-Op Title on Steam (Unreal Engine 5 | C++ & Blueprints)**
+* **Commercial Release:** Architected, developed, and shipped a 1–4 player co-op horror/puzzle game as a solo developer, generating **$7,000+ in gross revenue within the first month**.
+* **Multiplayer Architecture:** Engineered a Listen-Server network architecture with authoritative state management (`GameState`/`PlayerState`) and replication (`RPCs`, `RepNotify`) across Sanity, Stamina, Inventory, and synchronized multi-user puzzles.
+* **Event-Driven Codebase:** Structured gameplay logic around Subsystems, Actor Components, and DataAssets, replacing unnecessary `Tick` polling with Delegates and Timers.
+* **Optimization & Live Telemetry:** Profiled CPU/GPU bottlenecks via **Unreal Insights** (HISM, draw call reduction, PSO precompilation) to achieve **100+ FPS on integrated GPUs**, and integrated **Sentry** for post-launch crash triage.
 
-Meu objetivo é me tornar um Programador de Gameplay de classe mundial, e eu acredito que a melhor forma de fazer isso é construindo. Passo meu tempo mergulhado em C++. Blueprints e Unreal Engine, criando sistemas robustos, modulares e performáticos do zero.
+### [The Sleeping Curse](https://santodev.itch.io/thesleepingcurse) — *Gameplay Programmer (Team of 15)*
+**Scream Jam 2025 & Commercial Project (Unreal Engine 5 | C++ & Blueprints)**
+* **Team Production:** Collaborated within a 15-person international team over a 10-month cycle on an Unreal Engine 5 title born in Scream Jam 2025 and expanded into a commercial release.
+* **Core Gameplay & AI:** Architected a modular C++ character health/damage component, movement mechanics, monster AI behaviors, and interactive environmental puzzles, exposing clean Blueprint APIs (`UFUNCTION`/`UPROPERTY`) for level and game designers.
 
-Atualmente, estou buscando ativamente por uma oportunidade de estágio ou júnior onde eu possa aplicar minha dedicação, aprender com os melhores e contribuir para o desenvolvimento de jogos incríveis.
+---
 
-<br>
+## Open-Source C++ Systems & Unreal Engine Plugins
 
-##  Meu Destaque Principal (WIP)
+Because the repositories for my commercial titles are private, the public repositories below showcase my C++ architecture, coding standards, and API design for Blueprint integration:
 
-Este é o meu projeto de portfólio central, onde eu projeto, implemento e documento uma biblioteca de sistemas de gameplay modulares em C++.
+### 1. [UE-Gameplay-Systems-Library](https://github.com/LorenzzoPagotti/UE-Gameplay-Systems-Library)
+A collection of modular, reusable C++ gameplay systems built for Unreal Engine 5:
+* **AI System:** Custom C++ `AAIController` with `UAIPerceptionComponent` (sight and hearing configs), `BehaviorTree`, and custom C++ `UBTTaskNode` classes for patrol, investigation, pursuit, and search states.
+* **Data-Driven Inventory:** Scalable inventory foundation built with `UDataAsset` and `USTRUCT` definitions for designer-friendly item authoring directly in the Unreal Editor.
+* **Actor Attribute Components:** Event-driven Health and Stamina components communicating via C++ `UInterface` contracts and `Delegates`.
 
-### 🎮 **Biblioteca de Componentes de Gameplay (Unreal Engine)**
-**[➡️ Explore o Repositório e o Código-Fonte Clicando Aqui](https://github.com/LorenzzoPagotti/UE-Gameplay-Systems-Library)**
+### 2. [UE-InteractionSystemPlugin](https://github.com/LorenzzoPagotti/UE-InteractionSystemPlugin)
+A standalone **Unreal Engine C++ Plugin** providing a decoupled actor interaction framework:
+* Built around C++ `UInterface` contracts to allow any actor to become interactable without hard class dependencies.
+* Event-driven `Delegates` for zero-overhead UI prompt notifications and state updates.
+* Fully exposed to Blueprints (`UFUNCTION`/`UPROPERTY`, `BlueprintCallable`, `BlueprintImplementableEvent`) for rapid designer workflow.
 
-Este "toolkit" contém sistemas fundamentais e reutilizáveis, incluindo:
+### 3. [UE-StaminaSprintPlugin](https://github.com/LorenzzoPagotti/UE-StaminaSprintPlugin)
+A self-contained **Unreal Engine C++ Plugin** implementing a modular sprint and stamina management component:
+* Timer and Delegate-driven stamina depletion, exhaustion handling, and regeneration logic (no `Tick` polling overhead).
+* Plug-and-play `UActorComponent` architecture with full Blueprint API exposure for tuning movement speeds, stamina costs, and UI bindings in the editor.
 
-*  **Sistema de IA:** Um `AIController` customizado em C++ com `AIPerception` (visão e audição), `Behavior Tree` e `BTTasks` C++ para comportamentos complexos de patrulha, investigação, perseguição e busca.
-*  **Sistema de Interação:** Um componente modular que usa `Interfaces` C++ para comunicação desacoplada e `Delegates` para notificar a UI de forma otimizada.
-*  **Sistemas de Ator (Vida & Stamina):** Componentes de `Health` e `Stamina` orientados a eventos, com lógica de dano/cura via Interfaces para integração limpa com outros sistemas (como a IA!).
-*  **Sistema de Inventário (Data-Driven):** Uma fundação de inventário que usa `Structs` e `Data Assets` para definir itens no editor, permitindo fácil escalabilidade.
+---
 
-<br>
+## Technical Stack
 
-## 🏆 Minha Primeira Game Jam
-
-**Cursed Masks** - *Programador de Gameplay C++ e Blueprints*
-* **[➡️ Jogue o jogo aqui! (Link do Itch.io)](https://santodev.itch.io/cursedmasks)**
-* Entregamos um jogo de terror e puzzle 2.5D em 7 dias para a Scream Jam 2025.
-* Fui responsável por programar as mecânicas centrais de puzzle e a IA dos inimigos, colaborando diretamente com a equipe de arte e design.
-
-<br>
-
-## 🛠️ Tecnologias & Habilidades
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=for-the-badge&logo=unrealengine&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+* **Languages & Engine:** C++, Unreal Engine 5, Blueprints, Unreal Reflection System (`UPROPERTY`, `UFUNCTION`, `USTRUCT`, `UENUM`, `UInterface`)
+* **Multiplayer & Gameplay Architecture:** Client-Server Replication, Listen-Server Authority, `RPCs` & `RepNotify`, `GameState`/`PlayerState`, Subsystems, Actor Components, DataAssets, Event-Driven Architecture (Delegates/Timers), AI (`BehaviorTree`, `AIPerception`)
+* **Profiling, Telemetry & Tools:** Unreal Insights, HISM & Draw Call Optimization, PSO Caching, Sentry (Crash Triage), Git, GitHub, Visual Studio, JetBrains Rider
